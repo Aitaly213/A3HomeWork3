@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FilmActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_margin="10dp"
+        android:hint="title"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editContent"
+        android:layout_margin="10dp"
+        android:hint="content"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry"
+        />
+
+    <EditText
+        android:id="@+id/editGroup"
+        android:layout_margin="10dp"
+        android:hint="group"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry"
+        />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_margin="10dp"
+        android:hint="user"
+        android:textSize="24sp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry"
+        />
+
+    <Button
+        android:id="@+id/add_btn_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
